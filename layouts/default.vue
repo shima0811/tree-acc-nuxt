@@ -216,6 +216,13 @@
     },
     methods: {
       extendMenu() {
+           document.querySelectorAll('.acc-focus-item').forEach(item=>{
+        item.classList.remove('acc-focus-item')
+      })
+      document.querySelectorAll('.acc-show-sub').forEach(item=>{
+        item.classList.remove('acc-show-sub')
+      })
+
         this.extendedMenu = !this.extendedMenu
         document.getElementById('slot')?.remove()
       },
