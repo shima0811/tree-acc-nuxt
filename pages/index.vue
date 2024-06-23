@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-<Acctree />
-</template>
-
-
-=======
     <div class="p-5">
         <div class="d-flex justify-content-between bg-info">
             <div class="p-2">جدول حساب ها</div>
@@ -413,4 +407,3 @@ export default {
     transition: max-height 0.4s, height 0.4s;
 }
 </style>
->>>>>>> b15e3da (update)
