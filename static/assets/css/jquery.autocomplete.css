@@ -1,0 +1,81 @@
+.ac_results {
+	font-family:koodak3;
+	padding: 0px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #cdcdcd;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	font-family:koodak3;
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li *{
+	font-family:yekan3;
+	font-size:14px;
+}
+.ac_results li {
+	margin: 0px;
+	cursor: pointer;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+
+	font-family:koodak3;
+	font-size: 16px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('./indicator.gif') right center no-repeat;
+}
+
+
+
+.ac_even,
+.ac_odd {
+  font-family: vazir, yekan, Nunito !important;
+  direction: rtl;
+  width: 100%;
+  padding: 8px !important;
+  color: black;
+}
+
+.ac_odd > .txt,
+.ac_even > .txt {
+  font-family: vazir, yekan, Nunito !important;
+}
+
+.ac_even {
+  background-color: #2e388f2f;
+}
+
+.ac_odd {
+  background-color: white;
+}
+
+.ac_odd:hover {
+  background-color: #e5e5cb;
+  cursor: pointer;
+}
+
+.ac_even:hover {
+  background-color: rgba(99, 99, 99, 0.247);
+  cursor: pointer;
+}

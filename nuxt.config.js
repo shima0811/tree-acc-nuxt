@@ -24,10 +24,18 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+<<<<<<< HEAD
+=======
+    'static/assets/scss/app.scss',
+>>>>>>> b15e3da (update)
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+<<<<<<< HEAD
+=======
+      "@/plugins/Funcs.js",
+>>>>>>> b15e3da (update)
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

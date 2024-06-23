@@ -1,0 +1,39 @@
+// Import mazer Variables
+@import "./variables";
+
+// Bootstrap + Icons
+@import "~bootstrap/scss/bootstrap";
+@import "../css/bootstrap-icons.css";
+
+// Fix icon placement
+body .bi::before,
+[class^=bi-]::before,
+[class*=" bi-"]::before {
+    vertical-align: sub;
+}
+
+// // Import fonts
+@import "../css/font-New.css";
+@import "../css/font-vazir-fd.css";
+@import "../css/font-yekan.css";
+@import "../css/font-awesome.css";
+@import "../css/jquery.autocomplete.css";
+@import "../fonts/nunito/300.css";
+@import "../fonts/nunito/400.css";
+@import "../fonts/nunito/600.css";
+@import "../fonts/nunito/700.css";
+@import "../fonts/nunito/700.css";
+@import "../fonts/nunito/800.css";
+
+
+@import "../css/perfect-scrollbar.css";
+// Mazer CSS
+
+
+@import "./layouts/main.scss";
+
+
+
+// normalize scss
+@import "./normalize.scss"; 
+@import "./accnormalize.scss";
